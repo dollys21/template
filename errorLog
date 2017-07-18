@@ -435,3 +435,12 @@ java.lang.ClassNotFoundException: org.openxmlformats.schemas.spreadsheetml.x2006
 13:26:39.150 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.a.DefaultAnnotationHandlerMapping - Mapping [/exportExcel2007.xlsx] to HandlerExecutionChain with handler [com.demo.springmvc.controller.HelloWorldController@8c576f9] and 1 interceptor
 13:26:39.150 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/ExcelUploadDownload/exportExcel2007.xlsx] is: -1
 13:26:39.150 [http-nio-8080-exec-4] DEBUG o.s.w.b.a.s.HandlerMethodInvoker - Invoking request handler method: public org.springframework.web.servlet.ModelAndView com.demo.springmvc.controller.HelloWorldController.downloadExcel2007(javax.servlet.http.HttpServletResponse)
+
+
+
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>ooxml-schemas</artifactId>
+    <version>1.3</version>
+</dependency
